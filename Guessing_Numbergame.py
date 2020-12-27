@@ -28,6 +28,7 @@ while number_of_guesses < 3:
     
     
 if guess == number_1:
-    print(player2_name + " guessed your number in " + str(number_of_guesses) + " tries!")
+    print(player2_name + " guessed your number in " + str(number_of_guesses) + " tries!" + '\n' + player2_name + " WINS!")
 else:
     print(player1_name + ", You WON!")
+
